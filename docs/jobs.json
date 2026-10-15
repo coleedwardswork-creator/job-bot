@@ -1,0 +1,198 @@
+{
+ "jobs": [
+  {
+   "id": "lever:Shield AI:a272274e-6615-4d5f-a369-20aa94f867f2",
+   "company": "Shield AI",
+   "category": "defense",
+   "title": "Product Portfolio Analyst, X-BAT Family of Systems (FoS) (R6011)",
+   "location": "San Diego, California / Dallas, Texas / Washington, D.C. / Boston, Massachusetts / San Mateo, California / Seattle, Washington",
+   "url": "https://jobs.lever.co/shieldai/a272274e-6615-4d5f-a369-20aa94f867f2",
+   "score": 5,
+   "notes": [
+    "clearance sponsored/obtainable",
+    "2+ yrs exp"
+   ],
+   "first_seen": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "open": true
+  },
+  {
+   "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/Associate-Buyer_R-00194611",
+   "company": "Leidos",
+   "category": "defense",
+   "title": "Associate Buyer",
+   "location": "6314 Remote/Teleworker US",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Associate-Buyer_R-00194611",
+   "score": 4,
+   "notes": [
+    "remote"
+   ],
+   "first_seen": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "open": true
+  },
+  {
+   "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/McMurdo-Winter-Research-Associate_R-00193437",
+   "company": "Leidos",
+   "category": "defense",
+   "title": "McMurdo Winter Research Associate",
+   "location": "6314 Remote/Teleworker US",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/McMurdo-Winter-Research-Associate_R-00193437",
+   "score": 4,
+   "notes": [
+    "entry level",
+    "clearance sponsored/obtainable",
+    "1+ yrs exp",
+    "remote"
+   ],
+   "first_seen": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "open": true
+  },
+  {
+   "id": "workday:PIMCO:/job/San-Diego-CA-USA/Portfolio-Associate---SMA-Municipals_R105773",
+   "company": "PIMCO",
+   "category": "finance",
+   "title": "Portfolio Analyst/Associate - SMA/Municipals",
+   "location": "San Diego, CA USA",
+   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/San-Diego-CA-USA/Portfolio-Associate---SMA-Municipals_R105773",
+   "score": 2,
+   "notes": [
+    "entry level",
+    "1+ yrs exp"
+   ],
+   "first_seen": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "open": true
+  },
+  {
+   "id": "workday:LPL Financial:/job/San-Diego/Business-Development-Associate_R-051185",
+   "company": "LPL Financial",
+   "category": "finance",
+   "title": "Business Development Associate",
+   "location": "San Diego / Austin TX",
+   "url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/San-Diego/Business-Development-Associate_R-051185",
+   "score": 1,
+   "notes": [],
+   "first_seen": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "open": true
+  },
+  {
+   "id": "workday:LPL Financial:/job/Fort-MillCharlotte/Product-Ops-Associate_R-052828-1",
+   "company": "LPL Financial",
+   "category": "finance",
+   "title": "Product Ops Associate",
+   "location": "Fort Mill/Charlotte / San Diego / Tempe",
+   "url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/Fort-MillCharlotte/Product-Ops-Associate_R-052828-1",
+   "score": 1,
+   "notes": [
+    "2+ yrs exp"
+   ],
+   "first_seen": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "open": true
+  }
+ ],
+ "updated": "2026-10-15T21:21+00:00",
+ "manual": [
+  {
+   "name": "General Atomics (GA-ASI)",
+   "url": "https://www.ga-careers.com/"
+  },
+  {
+   "name": "Kratos",
+   "url": "https://www.kratosdefense.com/careers"
+  },
+  {
+   "name": "Northrop Grumman",
+   "url": "https://www.northropgrumman.com/jobs?location=San+Diego"
+  },
+  {
+   "name": "BAE Systems",
+   "url": "https://jobs.baesystems.com/global/en/search-results?keywords=analyst&location=San%20Diego"
+  },
+  {
+   "name": "L3Harris",
+   "url": "https://careers.l3harris.com/en/search-jobs/analyst/San%20Diego"
+  },
+  {
+   "name": "Brandes Investment Partners",
+   "url": "https://www.brandes.com/careers"
+  }
+ ],
+ "report": [
+  {
+   "board": "Shield AI",
+   "status": "ok (lever, 621 postings pulled)"
+  },
+  {
+   "board": "Leidos",
+   "status": "ok (workday, 47 postings pulled)"
+  },
+  {
+   "board": "Cubic",
+   "status": "FAILED (workday): HTTPError: 404 Client Error: Not Found for url: https://cubic.wd1.myworkdayjobs.com/wday/cxs/cubic/Cubic_Careers/jobs"
+  },
+  {
+   "board": "General Atomics (GA-ASI)",
+   "status": "manual link"
+  },
+  {
+   "board": "Kratos",
+   "status": "manual link"
+  },
+  {
+   "board": "Northrop Grumman",
+   "status": "manual link"
+  },
+  {
+   "board": "BAE Systems",
+   "status": "manual link"
+  },
+  {
+   "board": "L3Harris",
+   "status": "manual link"
+  },
+  {
+   "board": "LPL Financial",
+   "status": "ok (workday, 145 postings pulled)"
+  },
+  {
+   "board": "PIMCO",
+   "status": "ok (workday, 38 postings pulled)"
+  },
+  {
+   "board": "Brandes Investment Partners",
+   "status": "manual link"
+  },
+  {
+   "board": "Houlihan Lokey",
+   "status": "ok (workday, 13 postings pulled)"
+  },
+  {
+   "board": "Raymond James",
+   "status": "ok (workday, 82 postings pulled)"
+  },
+  {
+   "board": "Stifel",
+   "status": "FAILED (workday): HTTPError: 422 Client Error: Unprocessable Entity for url: https://stifel.wd1.myworkdayjobs.com/wday/cxs/stifel/External/jobs"
+  },
+  {
+   "board": "Baird",
+   "status": "FAILED (workday): HTTPError: 422 Client Error: Unprocessable Entity for url: https://rwbaird.wd1.myworkdayjobs.com/wday/cxs/rwbaird/Baird/jobs"
+  },
+  {
+   "board": "Anduril",
+   "status": "skipped (LA/OC toggle off)"
+  },
+  {
+   "board": "Epirus",
+   "status": "skipped (LA/OC toggle off)"
+  },
+  {
+   "board": "USAJobs",
+   "status": "skipped (no USAJOBS_API_KEY / USAJOBS_EMAIL set)"
+  }
+ ]
+}
