@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --ink: #14171c; --muted: #646b76; --line: #e3e6eb;
+  --accent: #1f4fd8; --accent-soft: #e8eefc; --red: #c0262d; --red-soft: #fdecec;
+  --green: #17803d; --green-soft: #e6f4ea; --amber: #a45f00; --amber-soft: #fdf2e0;
+  --chip: #eef0f3;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1115; --panel: #171a20; --ink: #e8eaee; --muted: #9aa1ac; --line: #262a32;
+    --accent: #7ea0ff; --accent-soft: #1c2640; --red: #ff7b80; --red-soft: #3a1c1f;
+    --green: #5fd38a; --green-soft: #15301f; --amber: #f2b45a; --amber-soft: #33270f;
+    --chip: #222630;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.45 Inter, system-ui, -apple-system, sans-serif; }
+.wrap { max-width: 920px; margin: 0 auto; padding: 24px 16px 60px; }
+header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+.updated { color: var(--muted); font-size: 13px; }
+.tabs { display: flex; gap: 6px; margin: 20px 0 12px; overflow-x: auto; padding-bottom: 2px; }
+.tab { border: 1px solid var(--line); background: var(--panel); color: var(--ink);
+  padding: 7px 12px; border-radius: 999px; cursor: pointer; font: inherit; font-size: 14px; white-space: nowrap; }
+.tab.on { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+.tab .n { opacity: .65; margin-left: 4px; }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+.controls input[type=search] { flex: 1 1 220px; min-width: 0; padding: 8px 12px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--panel); color: var(--ink); font: inherit; }
+.controls select { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--panel); color: var(--ink); font: inherit; }
+.controls label { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+  padding: 14px 16px; margin-bottom: 10px; display: grid; grid-template-columns: 44px 1fr; gap: 12px; }
+.card.closed { opacity: .55; }
+.score { width: 44px; height: 44px; border-radius: 10px; display: grid; place-items: center;
+  font-weight: 700; font-size: 17px; background: var(--accent-soft); color: var(--accent); }
+.score.hi { background: var(--green-soft); color: var(--green); }
+.score.lo { background: var(--chip); color: var(--muted); }
+.title { font-weight: 600; font-size: 16px; color: var(--ink); text-decoration: none; }
+.title:hover { text-decoration: underline; }
+.meta { color: var(--muted); font-size: 13.5px; margin-top: 2px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+.chip { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--muted); }
+.chip.red { background: var(--red-soft); color: var(--red); font-weight: 600; }
+.chip.green { background: var(--green-soft); color: var(--green); }
+.chip.amber { background: var(--amber-soft); color: var(--amber); }
+.actions { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+.btn { border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 8px;
+  padding: 5px 10px; font: inherit; font-size: 13px; cursor: pointer; }
+.btn:hover { background: var(--chip); }
+.btn.save { border-color: var(--accent); color: var(--accent); }
+.btn.applied { border-color: var(--green); color: var(--green); }
+.empty { text-align: center; color: var(--muted); padding: 50px 10px; }
+section.extra { margin-top: 34px; }
+section.extra h2 { font-size: 15px; margin: 0 0 8px; }
+section.extra ul { margin: 0; padding-left: 18px; }
+section.extra li { margin: 3px 0; font-size: 14px; }
+section.extra a { color: var(--accent); }
+.fail { color: var(--red); }
+.foot { margin-top: 30px; display: flex; gap: 8px; flex-wrap: wrap; font-size: 13px; color: var(--muted); align-items: center; }
+@media (max-width: 520px) { .card { grid-template-columns: 1fr; } .score { width: 38px; height: 38px; font-size: 15px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Job Board</h1>
+    <div class="updated" id="updated">Loading…</div>
+  </header>
+
+  <div class="tabs" id="tabs"></div>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search title or company">
+    <select id="cat">
+      <option value="">All types</option>
+      <option value="defense">Defense</option>
+      <option value="finance">Finance</option>
+      <option value="federal">Federal</option>
+    </select>
+    <label><input type="checkbox" id="hideClear"> Hide clearance-required</label>
+  </div>
+
+  <div id="list"></div>
+
+  <section class="extra" id="manual"></section>
+  <section class="extra" id="failed"></section>
+
+  <div class="foot">
+    Your statuses are saved in this browser.
+    <button class="btn" id="exportBtn">Export statuses</button>
+    <button class="btn" id="importBtn">Import statuses</button>
+    <input type="file" id="importFile" accept="application/json" hidden>
+  </div>
+</div>
+
+<script>
+const KEY = "jobboard.status.v1";
+const LATER_DAYS = 7;
+const TABS = [
+  ["inbox", "Inbox"], ["saved", "Saved"], ["later", "Later"],
+  ["applied", "Applied"], ["passed", "Passed"],
+];
+let data = { jobs: [] }, status = {}, tab = "inbox";
+
+function loadStatus() { try { status = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { status = {}; } }
+function saveStatus() { try { localStorage.setItem(KEY, JSON.stringify(status)); } catch (e) {} }
+const today = () => new Date().toISOString().slice(0, 10);
+
+function bucket(j) {
+  const s = status[j.id];
+  if (!s) return "inbox";
+  if (s.s === "later" && s.until && s.until <= today()) return "inbox";
+  return s.s;
+}
+
+function setStatus(id, s) {
+  if (s === "inbox") delete status[id];
+  else if (s === "later") {
+    const d = new Date(); d.setDate(d.getDate() + LATER_DAYS);
+    status[id] = { s, until: d.toISOString().slice(0, 10), at: today() };
+  } else status[id] = { s, at: today() };
+  saveStatus(); render();
+}
+
+function esc(t) { const d = document.createElement("div"); d.textContent = t ?? ""; return d.innerHTML; }
+
+function visible(j) {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const cat = document.getElementById("cat").value;
+  const hideClear = document.getElementById("hideClear").checked;
+  if (q && !(`${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q))) return false;
+  if (cat && j.category !== cat) return false;
+  if (hideClear && (j.notes || []).includes("ACTIVE CLEARANCE REQUIRED")) return false;
+  if (tab === "inbox" && !j.open) return false;
+  return bucket(j) === tab;
+}
+
+function card(j) {
+  const sc = j.score >= 7 ? "hi" : j.score <= 2 ? "lo" : "";
+  const st = status[j.id];
+  const chips = [];
+  if (j.first_seen === data.updated?.slice(0, 10) && bucket(j) === "inbox") chips.push(`<span class="chip green">new today</span>`);
+  if (st && st.s === "later" && bucket(j) === "inbox") chips.push(`<span class="chip amber">back from later</span>`);
+  if (!j.open) chips.push(`<span class="chip">no longer posted</span>`);
+  for (const n of j.notes || []) {
+    const cls = n.includes("REQUIRED") ? "red" : n.includes("sponsored") ? "green" : "";
+    chips.push(`<span class="chip ${cls}">${esc(n)}</span>`);
+  }
+  chips.push(`<span class="chip">found ${esc(j.first_seen)}</span>`);
+  if (st && st.s === "later" && bucket(j) === "later") chips.push(`<span class="chip amber">back on ${esc(st.until)}</span>`);
+  if (st && st.s === "applied") chips.push(`<span class="chip green">applied ${esc(st.at)}</span>`);
+
+  const b = bucket(j);
+  const acts = [];
+  if (b !== "saved") acts.push(`<button class="btn save" data-id="${esc(j.id)}" data-s="saved">Save</button>`);
+  if (b !== "later") acts.push(`<button class="btn" data-id="${esc(j.id)}" data-s="later">Later</button>`);
+  if (b !== "applied") acts.push(`<button class="btn applied" data-id="${esc(j.id)}" data-s="applied">Applied</button>`);
+  if (b !== "passed") acts.push(`<button class="btn" data-id="${esc(j.id)}" data-s="passed">Pass</button>`);
+  if (b !== "inbox") acts.push(`<button class="btn" data-id="${esc(j.id)}" data-s="inbox">Back to inbox</button>`);
+
+  return `<div class="card ${j.open ? "" : "closed"}">
+    <div class="score ${sc}" title="Fit score">${j.score}</div>
+    <div>
+      <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+      <div class="meta">${esc(j.company)} · ${esc(j.location)}</div>
+      <div class="chips">${chips.join("")}</div>
+      <div class="actions">${acts.join("")}</div>
+    </div>
+  </div>`;
+}
+
+function render() {
+  const counts = {};
+  for (const j of data.jobs) {
+    if (!j.open && bucket(j) === "inbox") continue;
+    counts[bucket(j)] = (counts[bucket(j)] || 0) + 1;
+  }
+  document.getElementById("tabs").innerHTML = TABS.map(([k, label]) =>
+    `<button class="tab ${k === tab ? "on" : ""}" data-tab="${k}">${label}<span class="n">${counts[k] || 0}</span></button>`).join("");
+
+  const rows = data.jobs.filter(visible);
+  document.getElementById("list").innerHTML = rows.length ? rows.map(card).join("") :
+    `<div class="empty">${tab === "inbox" ? "Inbox is clear. New postings show up here each morning." : "Nothing here yet."}</div>`;
+
+  const man = data.manual || [];
+  document.getElementById("manual").innerHTML = man.length ?
+    `<h2>Check by hand (no public feed)</h2><ul>${man.map(m =>
+      `<li><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a></li>`).join("")}</ul>` : "";
+  const bad = (data.report || []).filter(r => r.status.startsWith("FAILED"));
+  document.getElementById("failed").innerHTML = bad.length ?
+    `<h2 class="fail">Boards that failed last run</h2><ul>${bad.map(r =>
+      `<li>${esc(r.board)}: <span style="color:var(--muted)">${esc(r.status)}</span></li>`).join("")}</ul>
+     <p style="font-size:13px;color:var(--muted)">Fix the URL for these in config.toml.</p>` : "";
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-tab]");
+  if (t) { tab = t.dataset.tab; render(); return; }
+  const b = e.target.closest("[data-s]");
+  if (b) setStatus(b.dataset.id, b.dataset.s);
+});
+for (const id of ["q", "cat", "hideClear"]) document.getElementById(id).addEventListener("input", render);
+
+document.getElementById("exportBtn").onclick = () => {
+  const blob = new Blob([JSON.stringify(status, null, 1)], { type: "application/json" });
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob);
+  a.download = `job-statuses-${today()}.json`; a.click();
+};
+document.getElementById("importBtn").onclick = () => document.getElementById("importFile").click();
+document.getElementById("importFile").onchange = async e => {
+  try { Object.assign(status, JSON.parse(await e.target.files[0].text())); saveStatus(); render(); }
+  catch (err) { alert("That file didn't look right."); }
+};
+
+loadStatus();
+const embedded = document.getElementById("embedded-data");
+(embedded ? Promise.resolve(JSON.parse(embedded.textContent)) :
+  fetch("jobs.json?t=" + Date.now()).then(r => { if (!r.ok) throw 0; return r.json(); }))
+  .then(d => {
+    data = d;
+    const when = d.updated ? new Date(d.updated) : null;
+    document.getElementById("updated").textContent = when ?
+      `Updated ${when.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" })}, ${when.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}` : "";
+    render();
+  })
+  .catch(() => {
+    document.getElementById("updated").textContent = "";
+    document.getElementById("list").innerHTML = `<div class="empty">No data yet. Run the bot once from the Actions tab.</div>`;
+  });
+</script>
+</body>
+</html>
