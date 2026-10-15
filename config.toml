@@ -1,0 +1,159 @@
+# Job bot config. Edit freely.
+#
+# To add or fix a company, paste its careers page URL from your browser.
+# The bot figures out the type from the URL:
+#   Greenhouse  boards.greenhouse.io/<slug>  or  job-boards.greenhouse.io/<slug>
+#   Lever       jobs.lever.co/<slug>
+#   Ashby       jobs.ashbyhq.com/<slug>
+#   Workday     <tenant>.wd<N>.myworkdayjobs.com/<site>
+# Anything else is listed in the email under "Check by hand" with its link.
+#
+# Run `python jobbot.py --check` after editing to see which boards work.
+
+[[company]]
+name = "Shield AI"
+category = "defense"
+url = "https://jobs.lever.co/shieldai"
+
+[[company]]
+name = "Leidos"
+category = "defense"
+url = "https://leidos.wd5.myworkdayjobs.com/External"
+
+[[company]]
+name = "Cubic"
+category = "defense"
+url = "https://cubic.wd1.myworkdayjobs.com/Cubic_Careers"
+
+[[company]]
+name = "General Atomics (GA-ASI)"
+category = "defense"
+url = "https://www.ga-careers.com/"
+
+[[company]]
+name = "Kratos"
+category = "defense"
+url = "https://www.kratosdefense.com/careers"
+
+[[company]]
+name = "Northrop Grumman"
+category = "defense"
+url = "https://www.northropgrumman.com/jobs?location=San+Diego"
+
+[[company]]
+name = "BAE Systems"
+category = "defense"
+url = "https://jobs.baesystems.com/global/en/search-results?keywords=analyst&location=San%20Diego"
+
+[[company]]
+name = "L3Harris"
+category = "defense"
+url = "https://careers.l3harris.com/en/search-jobs/analyst/San%20Diego"
+
+[[company]]
+name = "LPL Financial"
+category = "finance"
+url = "https://lplfinancial.wd1.myworkdayjobs.com/External"
+
+[[company]]
+name = "PIMCO"
+category = "finance"
+url = "https://pimco.wd1.myworkdayjobs.com/pimco-careers"
+
+[[company]]
+name = "Brandes Investment Partners"
+category = "finance"
+url = "https://www.brandes.com/careers"
+
+[[company]]
+name = "Houlihan Lokey"
+category = "finance"
+url = "https://hl.wd1.myworkdayjobs.com/Campus"
+
+[[company]]
+name = "Raymond James"
+category = "finance"
+url = "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers"
+
+[[company]]
+name = "Stifel"
+category = "finance"
+url = "https://stifel.wd1.myworkdayjobs.com/External"
+
+[[company]]
+name = "Baird"
+category = "finance"
+url = "https://rwbaird.wd1.myworkdayjobs.com/Baird"
+
+# LA/OC targets. Only show up if include_la_oc = true below.
+[[company]]
+name = "Anduril"
+category = "defense"
+region = "la_oc"
+url = "https://boards.greenhouse.io/andurilindustries"
+
+[[company]]
+name = "Epirus"
+category = "defense"
+region = "la_oc"
+url = "https://boards.greenhouse.io/epirus"
+
+
+[usajobs]
+# Federal jobs (NIWC Pacific, Navy, DCAA, etc). Needs a free key from
+# https://developer.usajobs.gov/apirequest/  Leave enabled; it skips itself if no key.
+enabled = true
+keywords = ["financial", "budget", "analyst", "contract specialist", "auditor", "economist"]
+max_grade = 9   # GS-5/7/9 = entry level
+
+
+[filters]
+include_la_oc = false
+allow_remote = true
+
+locations = [
+  "san diego", "poway", "carlsbad", "rancho bernardo", "sorrento valley",
+  "la jolla", "kearny mesa", "chula vista", "el cajon", "oceanside",
+  "escondido", "national city", "coronado", "san marcos", "vista, ca",
+]
+la_oc_locations = [
+  "costa mesa", "irvine", "torrance", "el segundo", "los angeles",
+  "long beach", "newport beach", "santa ana", "orange, ca", "aliso viejo",
+  "hawthorne", "huntington beach", "anaheim",
+]
+
+# Title must hit at least one of these
+title_include = [
+  "analyst", "associate", "fp&a", "finance", "financial", "investment",
+  "valuation", "research", "pricing", "cost", "contracts", "treasury",
+  "corporate development", "business development", "capital markets",
+  "budget", "auditor", "economist",
+]
+
+# Title is dropped if it hits any of these
+title_exclude = [
+  "senior", "sr", "principal", "staff", "lead", "manager", "director",
+  "vp", "vice president", "head of", "chief", "ii", "iii", "iv", "v",
+  "engineer", "engineering", "technician", "scientist", "software",
+  "developer", "intern", "internship", "co-op", "machinist", "mechanic",
+  "warehouse", "production", "assembly", "sales associate", "retail",
+  "payroll", "accounts payable", "accounts receivable", "coordinator",
+  "administrative", "assistant", "data entry", "cybersecurity", "it",
+  "help desk", "nurse", "clinical",
+]
+
+max_years_required = 2   # drop if posting asks for more than this
+
+
+[scoring]
+finance_title = ["financial analyst", "fp&a", "investment", "valuation",
+  "equity research", "investment banking", "corporate development",
+  "private equity", "venture", "treasury", "pricing analyst", "cost analyst",
+  "budget analyst", "capital markets", "m&a", "financial planning"]
+entry_terms = ["entry level", "entry-level", "new grad", "new graduate",
+  "recent graduate", "early career", "analyst i", "0-2 years", "0 - 2 years",
+  "1-2 years", "0-1 years", "campus", "rotational"]
+background_terms = ["dod", "department of defense", "defense", "aerospace",
+  "a&d", "national security", "dcf", "valuation", "financial model",
+  "modeling", "earned value", "eac", "estimate at completion", "proposal pricing",
+  "government contracts", "far", "dfars", "m&a"]
