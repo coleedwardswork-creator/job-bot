@@ -13,7 +13,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "open": true
   },
   {
@@ -29,7 +29,7 @@
    ],
    "first_seen": "2026-10-15",
    "last_seen": "2026-10-15",
-   "open": true
+   "open": false
   },
   {
    "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/McMurdo-Winter-Research-Associate_R-00193437",
@@ -46,7 +46,7 @@
     "remote"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "open": true
   },
   {
@@ -75,7 +75,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "open": true
   },
   {
@@ -90,11 +90,11 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "open": true
   }
  ],
- "updated": "2026-10-15T21:31+00:00",
+ "updated": "2026-10-16T15:16+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -124,11 +124,11 @@
  "report": [
   {
    "board": "Shield AI",
-   "status": "ok (lever, 621 postings pulled)"
+   "status": "ok (lever, 618 postings pulled)"
   },
   {
    "board": "Leidos",
-   "status": "ok (workday, 47 postings pulled)"
+   "status": "ok (workday, 45 postings pulled)"
   },
   {
    "board": "Cubic",
@@ -156,11 +156,11 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 145 postings pulled)"
+   "status": "ok (workday, 144 postings pulled)"
   },
   {
    "board": "PIMCO",
-   "status": "ok (workday, 38 postings pulled)"
+   "status": "FAILED (workday): JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   {
    "board": "Brandes Investment Partners",
@@ -168,11 +168,11 @@
   },
   {
    "board": "Houlihan Lokey",
-   "status": "ok (workday, 13 postings pulled)"
+   "status": "ok (workday, 14 postings pulled)"
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 82 postings pulled)"
+   "status": "ok (workday, 81 postings pulled)"
   },
   {
    "board": "Stifel",
