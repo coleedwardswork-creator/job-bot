@@ -13,7 +13,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "open": true
   },
   {
@@ -46,7 +46,7 @@
     "remote"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "open": true
   },
   {
@@ -62,7 +62,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-17",
    "open": true
   },
   {
@@ -75,7 +75,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "open": true
   },
   {
@@ -90,11 +90,11 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "open": true
   }
  ],
- "updated": "2026-10-16T15:16+00:00",
+ "updated": "2026-10-17T15:08+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -124,11 +124,11 @@
  "report": [
   {
    "board": "Shield AI",
-   "status": "ok (lever, 618 postings pulled)"
+   "status": "ok (lever, 629 postings pulled)"
   },
   {
    "board": "Leidos",
-   "status": "ok (workday, 45 postings pulled)"
+   "status": "ok (workday, 44 postings pulled)"
   },
   {
    "board": "Cubic",
@@ -156,11 +156,11 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 144 postings pulled)"
+   "status": "ok (workday, 146 postings pulled)"
   },
   {
    "board": "PIMCO",
-   "status": "FAILED (workday): JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "status": "ok (workday, 39 postings pulled)"
   },
   {
    "board": "Brandes Investment Partners",
@@ -168,7 +168,7 @@
   },
   {
    "board": "Houlihan Lokey",
-   "status": "ok (workday, 14 postings pulled)"
+   "status": "ok (workday, 11 postings pulled)"
   },
   {
    "board": "Raymond James",
