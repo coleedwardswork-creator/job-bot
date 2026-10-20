@@ -13,7 +13,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "open": true
   },
   {
@@ -46,7 +46,23 @@
     "remote"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "open": true
+  },
+  {
+   "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/Program-Analyst_R-00194564",
+   "company": "Leidos",
+   "category": "defense",
+   "title": "Program Analyst",
+   "location": "6314 Remote/Teleworker US",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Program-Analyst_R-00194564",
+   "score": 2,
+   "notes": [
+    "2+ yrs exp",
+    "remote"
+   ],
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
    "open": true
   },
   {
@@ -62,7 +78,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "open": true
   },
   {
@@ -75,7 +91,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "open": true
   },
   {
@@ -90,11 +106,26 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "open": true
+  },
+  {
+   "id": "workday:Raymond James:/job/Remote-Tennessee---United-States/AMP--Financial-Advisor-Trainee_R-0013473",
+   "company": "Raymond James",
+   "category": "finance",
+   "title": "AMP- Financial Advisor Trainee",
+   "location": "Remote Tennessee - United States",
+   "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Remote-Tennessee---United-States/AMP--Financial-Advisor-Trainee_R-0013473",
+   "score": 0,
+   "notes": [
+    "remote"
+   ],
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
    "open": true
   }
  ],
- "updated": "2026-10-19T15:25+00:00",
+ "updated": "2026-10-20T15:22+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -124,11 +155,11 @@
  "report": [
   {
    "board": "Shield AI",
-   "status": "ok (lever, 645 postings pulled)"
+   "status": "ok (lever, 646 postings pulled)"
   },
   {
    "board": "Leidos",
-   "status": "ok (workday, 42 postings pulled)"
+   "status": "ok (workday, 41 postings pulled)"
   },
   {
    "board": "Cubic",
@@ -160,7 +191,7 @@
   },
   {
    "board": "PIMCO",
-   "status": "ok (workday, 40 postings pulled)"
+   "status": "ok (workday, 39 postings pulled)"
   },
   {
    "board": "Brandes Investment Partners",
@@ -172,7 +203,7 @@
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 79 postings pulled)"
+   "status": "ok (workday, 81 postings pulled)"
   },
   {
    "board": "Stifel",
