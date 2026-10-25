@@ -13,7 +13,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "open": true
   },
   {
@@ -61,7 +61,7 @@
     "remote"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "open": true
   },
   {
@@ -93,7 +93,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "open": true
   },
   {
@@ -106,7 +106,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "open": true
   },
   {
@@ -121,7 +121,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "open": true
   },
   {
@@ -140,7 +140,7 @@
    "open": false
   }
  ],
- "updated": "2026-10-24T15:12+00:00",
+ "updated": "2026-10-25T15:12+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -218,7 +218,7 @@
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 79 postings pulled)"
+   "status": "ok (workday, 80 postings pulled)"
   },
   {
    "board": "Stifel",
