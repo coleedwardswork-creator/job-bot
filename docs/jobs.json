@@ -13,7 +13,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "open": true
   },
   {
@@ -62,7 +62,7 @@
    ],
    "first_seen": "2026-10-15",
    "last_seen": "2026-10-26",
-   "open": true
+   "open": false
   },
   {
    "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/Program-Analyst_R-00194564",
@@ -93,7 +93,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "open": true
   },
   {
@@ -106,7 +106,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "open": true
   },
   {
@@ -121,7 +121,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "open": true
   },
   {
@@ -140,7 +140,7 @@
    "open": false
   }
  ],
- "updated": "2026-10-26T15:58+00:00",
+ "updated": "2026-10-27T15:36+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -170,7 +170,7 @@
  "report": [
   {
    "board": "Shield AI",
-   "status": "ok (lever, 668 postings pulled)"
+   "status": "ok (lever, 664 postings pulled)"
   },
   {
    "board": "Leidos",
@@ -214,11 +214,11 @@
   },
   {
    "board": "Houlihan Lokey",
-   "status": "ok (workday, 24 postings pulled)"
+   "status": "ok (workday, 23 postings pulled)"
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 80 postings pulled)"
+   "status": "ok (workday, 79 postings pulled)"
   },
   {
    "board": "Stifel",
