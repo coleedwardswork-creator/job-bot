@@ -13,7 +13,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "open": true
   },
   {
@@ -31,7 +31,7 @@
     "remote"
    ],
    "first_seen": "2026-10-28",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "open": true
   },
   {
@@ -117,6 +117,21 @@
    "open": false
   },
   {
+   "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/Workforce-Analyst_R-00195875",
+   "company": "Leidos",
+   "category": "defense",
+   "title": "Workforce Analyst",
+   "location": "6314 Remote/Teleworker US",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Workforce-Analyst_R-00195875",
+   "score": 2,
+   "notes": [
+    "remote"
+   ],
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "open": true
+  },
+  {
    "id": "workday:PIMCO:/job/San-Diego-CA-USA/Portfolio-Associate---SMA-Municipals_R105773",
    "company": "PIMCO",
    "category": "finance",
@@ -129,7 +144,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "open": true
   },
   {
@@ -142,7 +157,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "open": true
   },
   {
@@ -157,7 +172,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "open": true
   },
   {
@@ -176,7 +191,7 @@
    "open": false
   }
  ],
- "updated": "2026-10-29T15:39+00:00",
+ "updated": "2026-10-30T15:37+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -238,11 +253,11 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 148 postings pulled)"
+   "status": "ok (workday, 147 postings pulled)"
   },
   {
    "board": "PIMCO",
-   "status": "ok (workday, 36 postings pulled)"
+   "status": "ok (workday, 37 postings pulled)"
   },
   {
    "board": "Brandes Investment Partners",
@@ -250,7 +265,7 @@
   },
   {
    "board": "Houlihan Lokey",
-   "status": "ok (workday, 23 postings pulled)"
+   "status": "ok (workday, 25 postings pulled)"
   },
   {
    "board": "Raymond James",
