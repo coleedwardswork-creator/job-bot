@@ -13,7 +13,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "open": true
   },
   {
@@ -31,7 +31,7 @@
     "remote"
    ],
    "first_seen": "2026-10-28",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "open": true
   },
   {
@@ -128,7 +128,7 @@
     "remote"
    ],
    "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "open": true
   },
   {
@@ -144,7 +144,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "open": true
   },
   {
@@ -157,7 +157,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "open": true
   },
   {
@@ -172,7 +172,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "open": true
   },
   {
@@ -191,7 +191,7 @@
    "open": false
   }
  ],
- "updated": "2026-10-30T15:37+00:00",
+ "updated": "2026-10-31T15:20+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -225,7 +225,7 @@
   },
   {
    "board": "Leidos",
-   "status": "ok (workday, 42 postings pulled)"
+   "status": "ok (workday, 43 postings pulled)"
   },
   {
    "board": "Cubic",
@@ -253,7 +253,7 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 147 postings pulled)"
+   "status": "ok (workday, 149 postings pulled)"
   },
   {
    "board": "PIMCO",
@@ -265,11 +265,11 @@
   },
   {
    "board": "Houlihan Lokey",
-   "status": "ok (workday, 25 postings pulled)"
+   "status": "ok (workday, 28 postings pulled)"
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 82 postings pulled)"
+   "status": "ok (workday, 79 postings pulled)"
   },
   {
    "board": "Stifel",
