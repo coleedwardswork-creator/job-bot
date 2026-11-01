@@ -13,7 +13,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "open": true
   },
   {
@@ -31,7 +31,7 @@
     "remote"
    ],
    "first_seen": "2026-10-28",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "open": true
   },
   {
@@ -128,7 +128,7 @@
     "remote"
    ],
    "first_seen": "2026-10-30",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "open": true
   },
   {
@@ -144,7 +144,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "open": true
   },
   {
@@ -157,7 +157,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "open": true
   },
   {
@@ -172,7 +172,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "open": true
   },
   {
@@ -191,7 +191,7 @@
    "open": false
   }
  ],
- "updated": "2026-10-31T15:20+00:00",
+ "updated": "2026-11-01T15:21+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -253,7 +253,7 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 149 postings pulled)"
+   "status": "ok (workday, 148 postings pulled)"
   },
   {
    "board": "PIMCO",
