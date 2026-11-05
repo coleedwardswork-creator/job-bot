@@ -13,7 +13,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "open": true
   },
   {
@@ -31,7 +31,7 @@
     "remote"
    ],
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "open": true
   },
   {
@@ -47,7 +47,7 @@
    ],
    "first_seen": "2026-10-15",
    "last_seen": "2026-11-04",
-   "open": true
+   "open": false
   },
   {
    "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/Associate-Buyer_R-00194552",
@@ -144,7 +144,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "open": true
   },
   {
@@ -157,7 +157,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "open": true
   },
   {
@@ -172,7 +172,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "open": true
   },
   {
@@ -191,7 +191,7 @@
    "open": false
   }
  ],
- "updated": "2026-11-04T15:40+00:00",
+ "updated": "2026-11-05T15:45+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -221,7 +221,7 @@
  "report": [
   {
    "board": "Shield AI",
-   "status": "ok (lever, 664 postings pulled)"
+   "status": "ok (lever, 655 postings pulled)"
   },
   {
    "board": "Leidos",
@@ -253,7 +253,7 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 146 postings pulled)"
+   "status": "ok (workday, 145 postings pulled)"
   },
   {
    "board": "PIMCO",
@@ -269,7 +269,7 @@
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 80 postings pulled)"
+   "status": "ok (workday, 81 postings pulled)"
   },
   {
    "board": "Stifel",
