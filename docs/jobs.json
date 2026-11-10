@@ -31,7 +31,7 @@
     "remote"
    ],
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "open": true
   },
   {
@@ -112,7 +112,7 @@
     "remote"
    ],
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "open": true
   },
   {
@@ -159,7 +159,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "open": true
   },
   {
@@ -172,7 +172,23 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
+   "open": true
+  },
+  {
+   "id": "workday:LPL Financial:/job/The-Villages-FL---Field-Mgmt/Client-Service-Associate_R-054785-1",
+   "company": "LPL Financial",
+   "category": "finance",
+   "title": "Client Service Associate",
+   "location": "The Villages FL - Field Mgmt / Remote USA",
+   "url": "https://lplfinancial.wd1.myworkdayjobs.com/External/job/The-Villages-FL---Field-Mgmt/Client-Service-Associate_R-054785-1",
+   "score": 1,
+   "notes": [
+    "2+ yrs exp",
+    "remote"
+   ],
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
    "open": true
   },
   {
@@ -187,7 +203,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "open": true
   },
   {
@@ -206,7 +222,7 @@
    "open": false
   }
  ],
- "updated": "2026-11-09T15:47+00:00",
+ "updated": "2026-11-10T15:35+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -236,11 +252,11 @@
  "report": [
   {
    "board": "Shield AI",
-   "status": "ok (lever, 662 postings pulled)"
+   "status": "ok (lever, 672 postings pulled)"
   },
   {
    "board": "Leidos",
-   "status": "ok (workday, 45 postings pulled)"
+   "status": "ok (workday, 46 postings pulled)"
   },
   {
    "board": "Cubic",
@@ -268,11 +284,11 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 157 postings pulled)"
+   "status": "ok (workday, 156 postings pulled)"
   },
   {
    "board": "PIMCO",
-   "status": "ok (workday, 35 postings pulled)"
+   "status": "ok (workday, 34 postings pulled)"
   },
   {
    "board": "Brandes Investment Partners",
@@ -284,7 +300,7 @@
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 83 postings pulled)"
+   "status": "ok (workday, 79 postings pulled)"
   },
   {
    "board": "Stifel",
