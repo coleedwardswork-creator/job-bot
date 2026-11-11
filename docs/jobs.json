@@ -1,6 +1,23 @@
 {
  "jobs": [
   {
+   "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/Junior-Program-Financial-Analyst_R-00196388",
+   "company": "Leidos",
+   "category": "defense",
+   "title": "Junior Program Financial Analyst",
+   "location": "6314 Remote/Teleworker US",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Junior-Program-Financial-Analyst_R-00196388",
+   "score": 6,
+   "notes": [
+    "ACTIVE CLEARANCE REQUIRED",
+    "2+ yrs exp",
+    "remote"
+   ],
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "open": true
+  },
+  {
    "id": "lever:Shield AI:a272274e-6615-4d5f-a369-20aa94f867f2",
    "company": "Shield AI",
    "category": "defense",
@@ -31,7 +48,7 @@
     "remote"
    ],
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "open": true
   },
   {
@@ -112,7 +129,7 @@
     "remote"
    ],
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "open": true
   },
   {
@@ -130,6 +147,22 @@
    "first_seen": "2026-10-20",
    "last_seen": "2026-10-20",
    "open": false
+  },
+  {
+   "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/Winter-Research-Associate---Palmer-Station---Alternate_R-00196607",
+   "company": "Leidos",
+   "category": "defense",
+   "title": "Winter Research Associate - Palmer Station / Alternate",
+   "location": "6314 Remote/Teleworker US",
+   "url": "https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Winter-Research-Associate---Palmer-Station---Alternate_R-00196607",
+   "score": 2,
+   "notes": [
+    "2+ yrs exp",
+    "remote"
+   ],
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "open": true
   },
   {
    "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/Workforce-Analyst_R-00195875",
@@ -159,7 +192,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "open": true
   },
   {
@@ -172,7 +205,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "open": true
   },
   {
@@ -188,7 +221,7 @@
     "remote"
    ],
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "open": true
   },
   {
@@ -203,7 +236,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "open": true
   },
   {
@@ -222,7 +255,7 @@
    "open": false
   }
  ],
- "updated": "2026-11-10T15:35+00:00",
+ "updated": "2026-11-11T15:35+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -252,11 +285,11 @@
  "report": [
   {
    "board": "Shield AI",
-   "status": "ok (lever, 672 postings pulled)"
+   "status": "ok (lever, 669 postings pulled)"
   },
   {
    "board": "Leidos",
-   "status": "ok (workday, 46 postings pulled)"
+   "status": "ok (workday, 47 postings pulled)"
   },
   {
    "board": "Cubic",
@@ -284,11 +317,11 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 156 postings pulled)"
+   "status": "ok (workday, 157 postings pulled)"
   },
   {
    "board": "PIMCO",
-   "status": "ok (workday, 34 postings pulled)"
+   "status": "ok (workday, 33 postings pulled)"
   },
   {
    "board": "Brandes Investment Partners",
@@ -300,7 +333,7 @@
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 79 postings pulled)"
+   "status": "ok (workday, 82 postings pulled)"
   },
   {
    "board": "Stifel",
