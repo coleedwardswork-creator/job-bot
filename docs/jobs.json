@@ -14,7 +14,7 @@
     "remote"
    ],
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "open": true
   },
   {
@@ -48,7 +48,7 @@
     "remote"
    ],
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "open": true
   },
   {
@@ -130,7 +130,7 @@
    ],
    "first_seen": "2026-11-07",
    "last_seen": "2026-11-11",
-   "open": true
+   "open": false
   },
   {
    "id": "workday:Leidos:/job/6314-RemoteTeleworker-US/Program-Analyst_R-00194564",
@@ -161,7 +161,7 @@
     "remote"
    ],
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "open": true
   },
   {
@@ -192,7 +192,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "open": true
   },
   {
@@ -205,7 +205,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "open": true
   },
   {
@@ -221,7 +221,7 @@
     "remote"
    ],
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "open": true
   },
   {
@@ -236,7 +236,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "open": true
   },
   {
@@ -255,7 +255,7 @@
    "open": false
   }
  ],
- "updated": "2026-11-11T15:35+00:00",
+ "updated": "2026-11-12T15:46+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -285,7 +285,7 @@
  "report": [
   {
    "board": "Shield AI",
-   "status": "ok (lever, 669 postings pulled)"
+   "status": "ok (lever, 662 postings pulled)"
   },
   {
    "board": "Leidos",
@@ -317,7 +317,7 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 157 postings pulled)"
+   "status": "ok (workday, 158 postings pulled)"
   },
   {
    "board": "PIMCO",
@@ -333,7 +333,7 @@
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 82 postings pulled)"
+   "status": "ok (workday, 80 postings pulled)"
   },
   {
    "board": "Stifel",
