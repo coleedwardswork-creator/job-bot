@@ -14,7 +14,7 @@
     "remote"
    ],
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "open": true
   },
   {
@@ -48,7 +48,7 @@
     "remote"
    ],
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "open": true
   },
   {
@@ -161,7 +161,7 @@
     "remote"
    ],
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "open": true
   },
   {
@@ -205,7 +205,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "open": true
   },
   {
@@ -236,7 +236,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "open": true
   },
   {
@@ -255,7 +255,7 @@
    "open": false
   }
  ],
- "updated": "2026-11-13T15:34+00:00",
+ "updated": "2026-11-14T15:24+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -285,7 +285,7 @@
  "report": [
   {
    "board": "Shield AI",
-   "status": "ok (lever, 667 postings pulled)"
+   "status": "ok (lever, 0 postings pulled)"
   },
   {
    "board": "Leidos",
@@ -293,7 +293,7 @@
   },
   {
    "board": "Cubic",
-   "status": "FAILED (workday): HTTPError: 404 Client Error: Not Found for url: https://cubic.wd1.myworkdayjobs.com/wday/cxs/cubic/Cubic_Careers/jobs"
+   "status": "FAILED (workday): JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   {
    "board": "General Atomics (GA-ASI)",
@@ -317,11 +317,11 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 149 postings pulled)"
+   "status": "ok (workday, 150 postings pulled)"
   },
   {
    "board": "PIMCO",
-   "status": "ok (workday, 33 postings pulled)"
+   "status": "FAILED (workday): JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   {
    "board": "Brandes Investment Partners",
@@ -329,11 +329,11 @@
   },
   {
    "board": "Houlihan Lokey",
-   "status": "ok (workday, 41 postings pulled)"
+   "status": "FAILED (workday): JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 78 postings pulled)"
+   "status": "FAILED (workday): JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   {
    "board": "Stifel",
