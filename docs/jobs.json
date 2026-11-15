@@ -14,7 +14,7 @@
     "remote"
    ],
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "open": true
   },
   {
@@ -48,7 +48,7 @@
     "remote"
    ],
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "open": true
   },
   {
@@ -161,7 +161,7 @@
     "remote"
    ],
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "open": true
   },
   {
@@ -192,7 +192,7 @@
     "1+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-15",
    "open": true
   },
   {
@@ -205,7 +205,7 @@
    "score": 1,
    "notes": [],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "open": true
   },
   {
@@ -236,7 +236,7 @@
     "2+ yrs exp"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "open": true
   },
   {
@@ -255,7 +255,7 @@
    "open": false
   }
  ],
- "updated": "2026-11-14T15:24+00:00",
+ "updated": "2026-11-15T15:27+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -293,7 +293,7 @@
   },
   {
    "board": "Cubic",
-   "status": "FAILED (workday): JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "status": "FAILED (workday): HTTPError: 404 Client Error: Not Found for url: https://cubic.wd1.myworkdayjobs.com/wday/cxs/cubic/Cubic_Careers/jobs"
   },
   {
    "board": "General Atomics (GA-ASI)",
@@ -321,7 +321,7 @@
   },
   {
    "board": "PIMCO",
-   "status": "FAILED (workday): JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "status": "ok (workday, 33 postings pulled)"
   },
   {
    "board": "Brandes Investment Partners",
@@ -329,11 +329,11 @@
   },
   {
    "board": "Houlihan Lokey",
-   "status": "FAILED (workday): JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "status": "ok (workday, 41 postings pulled)"
   },
   {
    "board": "Raymond James",
-   "status": "FAILED (workday): JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "status": "ok (workday, 80 postings pulled)"
   },
   {
    "board": "Stifel",
