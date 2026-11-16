@@ -255,7 +255,7 @@
    "open": false
   }
  ],
- "updated": "2026-11-15T15:27+00:00",
+ "updated": "2026-11-16T23:31+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -289,11 +289,11 @@
   },
   {
    "board": "Leidos",
-   "status": "ok (workday, 47 postings pulled)"
+   "status": "FAILED (workday): HTTPError: 429 Client Error: Too Many Requests for url: https://leidos.wd5.myworkdayjobs.com/wday/cxs/leidos/External/jobs"
   },
   {
    "board": "Cubic",
-   "status": "FAILED (workday): HTTPError: 404 Client Error: Not Found for url: https://cubic.wd1.myworkdayjobs.com/wday/cxs/cubic/Cubic_Careers/jobs"
+   "status": "FAILED (workday): HTTPError: 429 Client Error: Too Many Requests for url: https://cubic.wd1.myworkdayjobs.com/wday/cxs/cubic/Cubic_Careers/jobs"
   },
   {
    "board": "General Atomics (GA-ASI)",
@@ -317,11 +317,11 @@
   },
   {
    "board": "LPL Financial",
-   "status": "ok (workday, 150 postings pulled)"
+   "status": "FAILED (workday): HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/External/j"
   },
   {
    "board": "PIMCO",
-   "status": "ok (workday, 33 postings pulled)"
+   "status": "FAILED (workday): HTTPError: 429 Client Error: Too Many Requests for url: https://pimco.wd1.myworkdayjobs.com/wday/cxs/pimco/pimco-careers/jobs"
   },
   {
    "board": "Brandes Investment Partners",
@@ -329,19 +329,19 @@
   },
   {
    "board": "Houlihan Lokey",
-   "status": "ok (workday, 41 postings pulled)"
+   "status": "FAILED (workday): HTTPError: 429 Client Error: Too Many Requests for url: https://hl.wd1.myworkdayjobs.com/wday/cxs/hl/Campus/jobs"
   },
   {
    "board": "Raymond James",
-   "status": "ok (workday, 80 postings pulled)"
+   "status": "FAILED (workday): HTTPError: 429 Client Error: Too Many Requests for url: https://raymondjames.wd1.myworkdayjobs.com/wday/cxs/raymondjames/RaymondJam"
   },
   {
    "board": "Stifel",
-   "status": "FAILED (workday): HTTPError: 422 Client Error: Unprocessable Entity for url: https://stifel.wd1.myworkdayjobs.com/wday/cxs/stifel/External/jobs"
+   "status": "FAILED (workday): HTTPError: 429 Client Error: Too Many Requests for url: https://stifel.wd1.myworkdayjobs.com/wday/cxs/stifel/External/jobs"
   },
   {
    "board": "Baird",
-   "status": "FAILED (workday): HTTPError: 422 Client Error: Unprocessable Entity for url: https://rwbaird.wd1.myworkdayjobs.com/wday/cxs/rwbaird/Baird/jobs"
+   "status": "FAILED (workday): HTTPError: 429 Client Error: Too Many Requests for url: https://rwbaird.wd1.myworkdayjobs.com/wday/cxs/rwbaird/Baird/jobs"
   },
   {
    "board": "Anduril",
