@@ -255,7 +255,7 @@
    "open": false
   }
  ],
- "updated": "2026-11-16T23:31+00:00",
+ "updated": "2026-11-17T22:40+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -285,7 +285,7 @@
  "report": [
   {
    "board": "Shield AI",
-   "status": "ok (lever, 0 postings pulled)"
+   "status": "FAILED (lever): HTTPError: 502 Server Error: Bad Gateway for url: https://api.lever.co/v0/postings/shieldai?mode=json"
   },
   {
    "board": "Leidos",
