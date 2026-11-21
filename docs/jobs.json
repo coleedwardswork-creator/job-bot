@@ -255,7 +255,7 @@
    "open": false
   }
  ],
- "updated": "2026-11-20T21:58+00:00",
+ "updated": "2026-11-21T20:40+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -337,7 +337,7 @@
   },
   {
    "board": "Stifel",
-   "status": "FAILED (workday): HTTPError: 429 Client Error: Too Many Requests for url: https://stifel.wd1.myworkdayjobs.com/wday/cxs/stifel/External/jobs"
+   "status": "FAILED (workday): HTTPError: 422 Client Error: Unprocessable Entity for url: https://stifel.wd1.myworkdayjobs.com/wday/cxs/stifel/External/jobs"
   },
   {
    "board": "Baird",
