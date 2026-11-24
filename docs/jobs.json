@@ -255,7 +255,7 @@
    "open": false
   }
  ],
- "updated": "2026-11-22T20:50+00:00",
+ "updated": "2026-11-24T01:54+00:00",
  "manual": [
   {
    "name": "General Atomics (GA-ASI)",
@@ -341,7 +341,7 @@
   },
   {
    "board": "Baird",
-   "status": "FAILED (workday): HTTPError: 429 Client Error: Too Many Requests for url: https://rwbaird.wd1.myworkdayjobs.com/wday/cxs/rwbaird/Baird/jobs"
+   "status": "FAILED (workday): HTTPError: 422 Client Error: Unprocessable Entity for url: https://rwbaird.wd1.myworkdayjobs.com/wday/cxs/rwbaird/Baird/jobs"
   },
   {
    "board": "Anduril",
